@@ -1,0 +1,156 @@
+.hero {
+  background-color: #f5f5f5; /* Custom background color */
+}
+.logo{
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+/* Custom styles */
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.services-section h2 {
+  margin-bottom: 30px;
+}
+
+.services-section .service-item {
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  margin-bottom: 20px;
+}
+
+
+
+/* Custom styles for testimonial section */
+.testimonial {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+  float: left;
+}
+
+.testimonial-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.testimonial:hover .testimonial-img img {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.testimonial-content {
+  overflow: hidden;
+}
+
+.testimonial-content p {
+  margin-bottom: 10px;
+}
+
+.testimonial-content cite {
+  display: block;
+  font-style: italic;
+}
+
+
+/* Custom styles for contact form */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+.contact-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Custom styles for service cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #666;
+}
+
+
+
+
+
